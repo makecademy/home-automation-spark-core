@@ -1,0 +1,34 @@
+<head>
+
+<LINK href="/css/interface.css" rel="stylesheet" type="text/css" />
+<LINK href="/css/flat-ui.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="/js/interface.js"></script>
+
+</head>
+
+<body>
+
+<div class="mainContainer">
+  <div class="title">Dashboard</div>
+  <div class="buttonBlock"><div class="buttonTitle">Relay Core</div>
+
+  <button class="btn btn-block btn-lg btn-primary" 
+  type="button" id="1" onClick="buttonClick(this.id)">On</button>
+  <button class="btn btn-block btn-lg btn-danger" 
+  type="button" id="2" onClick="buttonClick(this.id)">Off</button>
+   <div class="status" id="relayCoreStatus">Core Offline</div>
+
+   </div>
+
+  <div class="buttonBlock"><div class="buttonTitle">Sensors Core</div>
+
+  <div class="display" id="tempDisplay">Temperature: </div>
+  <div class="display" id="humidityDisplay">Humidity: </div>
+  <div class="display" id="lightDisplay">Light level: </div>
+  <div class="status" id="sensorsCoreStatus">Core Offline</div>
+
+  </div>
+
+</div>
+</body>
